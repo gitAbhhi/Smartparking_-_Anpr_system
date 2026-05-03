@@ -72,7 +72,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install all dependencies
-pip install -r requirements.txt
+pip install flask flask-cors opencv-python numpy pandas openpyxl easyocr Pillow pytesseract
 
 # Start Flask server
 python app.py
